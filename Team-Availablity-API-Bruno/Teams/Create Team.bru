@@ -1,0 +1,17 @@
+meta {
+  name: Create Team
+  type: http
+  seq: 1
+}
+
+post {
+  url: 127.0.0.1:3000/api/team/create
+  body: json
+  auth: none
+}
+
+body:json {
+  {
+    "name": "testteam2"
+  }
+}

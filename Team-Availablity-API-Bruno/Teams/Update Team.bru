@@ -1,0 +1,22 @@
+meta {
+  name: Update Team
+  type: http
+  seq: 4
+}
+
+patch {
+  url: 127.0.0.1:3000/api/team/by-id/:ID
+  body: json
+  auth: none
+}
+
+params:path {
+  ID: 
+}
+
+body:json {
+  {
+    "id": 1,
+    "name": "test2"
+  }
+}

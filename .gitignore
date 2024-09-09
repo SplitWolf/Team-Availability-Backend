@@ -1,0 +1,8 @@
+/target
+.env
+.vscode
+.sqlx
+
+# dist symlink from angular frontend
+dist
+dist2

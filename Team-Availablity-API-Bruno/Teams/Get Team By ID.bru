@@ -1,0 +1,15 @@
+meta {
+  name: Get Team By ID
+  type: http
+  seq: 3
+}
+
+get {
+  url: 127.0.0.1:3000/api/team/by-id/:ID
+  body: none
+  auth: none
+}
+
+params:path {
+  ID: 4
+}

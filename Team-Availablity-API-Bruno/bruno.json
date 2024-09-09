@@ -1,0 +1,9 @@
+{
+  "version": "1",
+  "name": "Team-Availablity-API-Bruno",
+  "type": "collection",
+  "ignore": [
+    "node_modules",
+    ".git"
+  ]
+}
